@@ -3,12 +3,12 @@ pipeline {
     stages { 
         stage('sample1') {
           steps {
-            echo 'summition'
+            echo 'name'
           }
         }
         stage('sample 2') { 
             steps { 
-               echo 'addition...' 
+               echo 'enrollment-no' 
                bat 'python vansh.py'
               //bat 'mvn package'
             }
