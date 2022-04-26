@@ -6,9 +6,14 @@ pipeline {
             echo 'vansh'
           }
         }
-        stage('senrollment-no') { 
+        stage('enrollment-no') {
+          steps {
+            echo 'e19cse130'
+          }
+        }
+        stage('batch') { 
             steps { 
-               echo 'e19cse130' 
+               echo 'eb04' 
                bat 'python vansh.py'
               //bat 'mvn package'
             }
