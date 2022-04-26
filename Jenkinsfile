@@ -1,14 +1,14 @@
 pipeline { 
     agent any  
     stages { 
-        stage('sample1') {
+        stage('name') {
           steps {
-            echo 'name'
+            echo 'vansh'
           }
         }
-        stage('sample 2') { 
+        stage('senrollment-no') { 
             steps { 
-               echo 'enrollment-no' 
+               echo 'e19cse130' 
                bat 'python vansh.py'
               //bat 'mvn package'
             }
